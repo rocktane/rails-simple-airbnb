@@ -1,0 +1,25 @@
+<div class="header h-25">
+</div>
+<div class="container-fluid justify-content-center row">
+  <div class="col-8">
+    <div class="card mb-3">
+      <h1><%= @flat.name %></h1>
+      <h3><%= @flat.address %></h3>
+    </div>
+    <div class="card">
+      <h2>A bit more about this flat...</h2>
+      <p><%= @flat.description %></p>
+    </div>
+  </div>
+  <div class="col-4">
+    <h3>Book this place</h3>
+    <div class="input-group">
+      <span class="input-group-text" id="start-date-label">From</span>
+      <input type="text" class="form-control" placeholder="12/10/2017" aria-label="start-date" aria-describedby="start-date-label">
+    </div>
+    <div class="input-group">
+      <span class="input-group-text" id="start-date-label">To</span>
+      <input type="text" class="form-control" placeholder="12/10/2017" aria-label="start-date" aria-describedby="start-date-label">
+    </div>
+  </div>
+</div>
